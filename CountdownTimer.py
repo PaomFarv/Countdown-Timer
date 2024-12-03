@@ -1,7 +1,7 @@
 import time
 from colorama import Fore
 
-input("Press Enter To Begin---") 
+input("Press ENTER To Begin---") 
 print("-"*40)
 
 while True:
@@ -23,3 +23,4 @@ for i in range(time_limit,0,-1):
 
 print(Fore.RED + "TIME'S UP.")
 print(Fore.LIGHTWHITE_EX + "-"*40)
+input("Press ENTER to quit.")
